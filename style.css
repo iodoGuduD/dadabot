@@ -1,0 +1,16 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+button{
+    background-color: red;
+    font-size: 3rem;
+    padding: 2em;
+    border-radius: 10px;
+}
