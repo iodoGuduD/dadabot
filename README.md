@@ -2,3 +2,5 @@
 ## Method
  The focus is create a bot which gives a random information using JavaScript. For this, I use the method math.random() and atribute the number received to one information in an array.
  Maybe it  will works.
+## Reference
+ https://www.javascriptprogressivo.net/2018/12/Simular-Dados-Lancados.html
