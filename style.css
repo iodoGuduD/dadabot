@@ -8,11 +8,9 @@ body {
     background-color: #e2e2e2;
 }
 
-main {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+.chat {
+    text-align: center;
+
 }
 
 button {
@@ -21,7 +19,7 @@ button {
     padding: 1em;
     border-radius: 100px;
     color: white;
-    box-shadow: 3px 0 rgb(143, 0, 0);
+    box-shadow: 0 7px rgb(143, 0, 0);
     cursor: pointer;
     transition: 1s ease-out;
 }
@@ -32,4 +30,12 @@ button:focus, button:hover {
 
 button::after {
     background-color: red;
+}
+
+p {
+    
+}
+
+.invisible {
+    display: none;
 }
