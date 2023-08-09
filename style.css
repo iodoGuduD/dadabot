@@ -10,6 +10,7 @@ body {
 
 main {
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -25,10 +26,10 @@ button {
     transition: 1s ease-out;
 }
 
-button::after {
+button:focus, button:hover {
     background-color: rgb(143, 0, 0);
 }
 
-button:focus {
-    background-color: rgb(143, 0, 0);
+button::after {
+    background-color: red;
 }
