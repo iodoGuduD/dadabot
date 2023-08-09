@@ -8,10 +8,27 @@ body {
     background-color: #e2e2e2;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button {
     background-color: red;
-    font-size: 3rem;
-    padding: 2em;
-    border-radius: 10px;
+    font-size: 2rem;
+    padding: 1em;
+    border-radius: 100px;
     color: white;
+    box-shadow: 3px 0 rgb(143, 0, 0);
+    cursor: pointer;
+    transition: 1s ease-out;
+}
+
+button::after {
+    background-color: rgb(143, 0, 0);
+}
+
+button:focus {
+    background-color: rgb(143, 0, 0);
 }
