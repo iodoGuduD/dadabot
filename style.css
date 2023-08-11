@@ -14,26 +14,29 @@ body {
 }
 
 button {
-    background-color: red;
+    background-color: rgb(200, 0, 0);
     font-size: 2rem;
     padding: 1em;
     border-radius: 100px;
     color: white;
-    box-shadow: 0 7px rgb(143, 0, 0);
+    box-shadow: 0 7px rgb(140, 0, 0);
     cursor: pointer;
     transition: 1s ease-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button:focus, button:hover {
-    background-color: rgb(143, 0, 0);
+button:hover {
+    background-color: rgb(255, 0, 0);
 }
 
 button::after {
-    background-color: red;
+    background-color: rgb(200, 0, 0);
 }
 
 p {
-    
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .invisible {

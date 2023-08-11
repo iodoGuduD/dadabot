@@ -1,4 +1,11 @@
-lista = ['Luiz é calvo', 'Yago era uma goiaba', 'Existe um cabeça de pirâmide']
-elemento = lista[Math.floor(Math.random() * lista.length)]
+let paragraph = document.querySelector('p');
+let button = document.querySelector('button');
 
-console.log(`${elemento}!`)
+let phrases = ['Luiz é calvo', 'Yago era uma goiaba', 'Existe um cabeça de pirâmide'];
+let element = lista[Math.floor(Math.random() * phrases.length)];
+
+function buttonRandomPhrase() {
+    button.addEventListener("click", () => {
+        paragraph.innerText(`${element}`);
+    });
+} 
