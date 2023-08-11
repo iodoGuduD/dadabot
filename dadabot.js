@@ -7,5 +7,6 @@ let element = phrases[Math.floor(Math.random() * phrases.length)];
 function buttonRandomPhrase() {
     button.addEventListener("click", () => {
         paragraph.innerText(`${element}`);
+        paragraph.innerHTML('invisible');
     });
 } 
