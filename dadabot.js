@@ -2,7 +2,7 @@ let paragraph = document.querySelector('p');
 let button = document.querySelector('button');
 
 let phrases = ['Luiz é calvo', 'Yago era uma goiaba', 'Existe um cabeça de pirâmide'];
-let element = lista[Math.floor(Math.random() * phrases.length)];
+let element = phrases[Math.floor(Math.random() * phrases.length)];
 
 function buttonRandomPhrase() {
     button.addEventListener("click", () => {
