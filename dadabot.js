@@ -9,7 +9,7 @@ function randomizer() {
 }
 
 function randomizedText() {
-    paragraph.innerText(randomizer());
+    paragraph.innerText = randomizer();
     paragraph.classList.remove('invisible');
 }
 
