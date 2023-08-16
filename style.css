@@ -29,8 +29,8 @@ button:hover {
     background-color: rgb(255, 0, 0);
 }
 
-button::after {
-    background-color: rgb(200, 0, 0);
+button::after, button:active {
+    background-color: rgb(160, 0, 0);
 }
 
 p {

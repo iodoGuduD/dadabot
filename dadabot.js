@@ -9,8 +9,10 @@ function randomizer() {
 }
 
 function buttonRandomPhrase() {
-    button.addEventListener("click", () => {
-        paragraph.innerText(element);
+    button.addEventListener("click", randomizedText);
+
+    function randomizedText() {
+        paragraph.innerText(randomizer());
         paragraph.innerHTML('invisible');
-    });
+    }
 } 
