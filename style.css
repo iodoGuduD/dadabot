@@ -6,11 +6,7 @@
 
 body {
     background-color: #e2e2e2;
-}
-
-.chat {
     text-align: center;
-
 }
 
 button {
@@ -33,12 +29,8 @@ button::after, button:active {
     background-color: rgb(160, 0, 0);
 }
 
-p {
+#answer {
     text-align: center;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
-}
-
-.invisible {
-    display: none;
 }

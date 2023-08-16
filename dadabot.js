@@ -1,4 +1,4 @@
-let paragraph = document.querySelector('p');
+let paragraph = document.getElementById('answer');
 let button = document.querySelector('button');
 
 function randomizer() {
