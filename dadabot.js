@@ -8,11 +8,9 @@ function randomizer() {
     return element;
 }
 
-function buttonRandomPhrase() {
-    button.addEventListener("click", randomizedText);
+function randomizedText() {
+    paragraph.innerText(randomizer());
+    paragraph.classList.remove('invisible');
+}
 
-    function randomizedText() {
-        paragraph.innerText(randomizer());
-        paragraph.innerHTML('invisible');
-    }
-} 
+button.addEventListener("click", randomizedText);
