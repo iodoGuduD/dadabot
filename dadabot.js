@@ -2,7 +2,7 @@ let paragraph = document.getElementById('answer');
 let button = document.querySelector('button');
 
 function randomizer() {
-    let phrases = ['Luiz é calvo', 'Yago era uma goiaba', 'Existe um cabeça de pirâmide'];
+    let phrases = ['When a rubber band is placed in the fridge, it causes the polymers to relax. This keeps the band from breaking down as fast as it normally does.', 'There are 293 ways to make change for a dollar.', 'The Grand Theft Auto franchise has lawsuits that total over $1 billion.'];
     let element = phrases[Math.floor(Math.random() * phrases.length)];
 
     return element;
@@ -10,7 +10,6 @@ function randomizer() {
 
 function randomizedText() {
     paragraph.innerText = randomizer();
-    paragraph.classList.remove('invisible');
 }
 
 button.addEventListener("click", randomizedText);
